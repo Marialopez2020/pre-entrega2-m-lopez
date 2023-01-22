@@ -1,0 +1,12 @@
+footer {
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: all 0.25s;
+  
+      &:hover {
+        color: $colorPrincipalHover;
+        transition: all 0.25s;
+      }
+    }
+  }

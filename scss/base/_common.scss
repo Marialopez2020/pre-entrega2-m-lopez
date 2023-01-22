@@ -1,0 +1,44 @@
+main {
+    h1 {
+      font-size: 36px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
+  }
+  
+    a {
+        
+      img {
+        width: 60px;
+  
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  
+  .bg-go-2 {
+    background: $colorSecundario;
+  }
+  
+  .bg-go-3 {
+    background: $colorTerciario;
+  }
+  
+  .text-color-1 {
+    color: $colorSecundario;
+  }
+  
+  .text-color-2 {
+    color: #6c585a;
+  }
+  
+  .text-color-3 {
+    color: $colorTerciario;
+  }

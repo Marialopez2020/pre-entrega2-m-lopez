@@ -1,0 +1,10 @@
+body {
+    .animacion {
+        transition: all 3s;
+    }
+    
+    .animacion:hover {
+        transform: rotateY(360deg) scale(1.2);
+    }
+    
+}

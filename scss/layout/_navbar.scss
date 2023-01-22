@@ -1,0 +1,22 @@
+.nav-link {
+    color: #f71515;
+    transition: all 0.25s;
+  
+    &:hover {
+      color: $colorPrincipalHover;
+      transform: translateY(-5px);
+      transition: all 0.25s;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar-collapse {
+      background-color: rgb(15, 14, 16);
+      position: absolute;
+      z-index: 1;
+      top: 70px;
+      left: 0px;
+      width: 100%;
+    }
+  }
+  
