@@ -1,0 +1,17 @@
+
+ main {
+    section{
+      .animacionEquipo {
+      color: $colorTerciario;
+      transition: all 0.25s;
+  
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0px 4px 4px 0px $colorTerciario;
+        transform: translateY(-10px);
+        transition: all 0.2s;
+      }
+    }
+  }
+}
+  

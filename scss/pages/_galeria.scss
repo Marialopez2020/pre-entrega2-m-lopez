@@ -1,10 +1,15 @@
 body {
-    .animacion {
+    section {
+      .galeria {
+        background-color: $colorPrincipal;
+    
+      .animacion {
         transition: all 3s;
-    }
-    
-    .animacion:hover {
+     
+      &:hover {
         transform: rotateY(360deg) scale(1.2);
+      }
     }
-    
+  } 
+ }
 }
