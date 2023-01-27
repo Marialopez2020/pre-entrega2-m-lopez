@@ -1,12 +1,13 @@
 footer {
+  .footer-bottom__copy{
     a {
-      color: #ffffff;
       text-decoration: none;
       transition: all 0.25s;
   
-      &:hover {
-        color: $colorPrincipalHover;
-        transition: all 0.25s;
+    &:hover {
+      color: $colorfooterHover !important;
+      transition: all 0.25s;
       }
     }
   }
+}

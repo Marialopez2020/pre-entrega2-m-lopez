@@ -37,28 +37,17 @@ a img {
   color: #f6a92c; }
 
 .nav-link {
-  color: #f71515;
   transition: all 0.25s; }
   .nav-link:hover {
-    color: #edad4c;
+    color: #ede54c !important;
     transform: translateY(-5px);
     transition: all 0.25s; }
 
-@media screen and (max-width: 767px) {
-  .navbar-collapse {
-    background-color: #0f0e10;
-    position: absolute;
-    z-index: 1;
-    top: 70px;
-    left: 0px;
-    width: 100%; } }
-
-footer a {
-  color: #ffffff;
+footer .footer-bottom__copy a {
   text-decoration: none;
   transition: all 0.25s; }
-  footer a:hover {
-    color: #edad4c;
+  footer .footer-bottom__copy a:hover {
+    color: #ecaa92 !important;
     transition: all 0.25s; }
 
 body section .galeria {
