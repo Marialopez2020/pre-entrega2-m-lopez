@@ -1,3 +1,4 @@
+header {
 .nav-link {
     transition: all 0.25s;
   
@@ -7,3 +8,13 @@
       transition: all 0.25s;
     }
   }
+.nav-buttom {
+  &:hover {
+    background-color: $colorCuater !important;
+    color: white !important;
+    border: $colorPrincipalHover !important;
+    transition: all 0.25s;
+    }
+  }
+  
+}

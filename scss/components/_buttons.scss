@@ -1,0 +1,11 @@
+main {
+    .carousel-button {
+        &:hover {
+          background-color: $colorCuater !important;
+          color: white !important;
+          border: $colorPrincipalHover !important;
+          transition: all 0.25s;
+        }
+    } 
+}
+

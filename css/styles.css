@@ -25,7 +25,7 @@ a img {
   background: #f7b98d; }
 
 .bg-go-3 {
-  background: #f6a92c; }
+  background: #f58a33; }
 
 .text-color-1 {
   color: #f7b98d; }
@@ -34,14 +34,20 @@ a img {
   color: #6c585a; }
 
 .text-color-3 {
-  color: #f6a92c; }
+  color: #f58a33; }
 
-.nav-link {
+header .nav-link {
   transition: all 0.25s; }
-  .nav-link:hover {
-    color: #ede54c !important;
+  header .nav-link:hover {
+    color: #f8dda0 !important;
     transform: translateY(-5px);
     transition: all 0.25s; }
+
+header .nav-buttom:hover {
+  background-color: #517b72 !important;
+  color: white !important;
+  border: #f8dda0 !important;
+  transition: all 0.25s; }
 
 footer .footer-bottom__copy a {
   text-decoration: none;
@@ -61,13 +67,26 @@ section .contHomeSuscripcion button {
   background-color: #ef8a9b; }
 
 section .contHomeSuscripcion button:hover {
-  background-color: black !important; }
+  background-color: #517b72 !important;
+  color: black !important; }
 
 main section .animacionEquipo {
-  color: #f6a92c;
+  color: #f58a33;
   transition: all 0.25s; }
   main section .animacionEquipo:hover {
     cursor: pointer;
-    box-shadow: 0px 4px 4px 0px #f6a92c;
+    box-shadow: 0px 4px 4px 0px #f58a33;
     transform: translateY(-10px);
     transition: all 0.2s; }
+
+main .carousel-button:hover {
+  background-color: #517b72 !important;
+  color: white !important;
+  border: #f8dda0 !important;
+  transition: all 0.25s; }
+
+main .faq-button:hover {
+  background-color: #517b72 !important;
+  color: white !important;
+  border: #f8dda0 !important;
+  transition: all 0.25s; }
