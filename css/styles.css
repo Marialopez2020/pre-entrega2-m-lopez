@@ -79,7 +79,7 @@ main section .animacionEquipo {
     transform: translateY(-10px);
     transition: all 0.2s; }
 
-main .carousel-button:hover {
+main .general-buttons:hover {
   background-color: #517b72 !important;
   color: white !important;
   border: #f8dda0 !important;
